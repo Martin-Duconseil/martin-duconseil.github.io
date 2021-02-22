@@ -16,10 +16,10 @@ $message = $_POST['message'];
 // create email body and send it	
 $to = 'martin.duconseil@gmail.com'; // ----->>> put your email to receive mails
 $email_subject = "Message envoyé par:  $name";
-$email_body = "Vous avez reçu un nouveu message. \n\n".
-				  " Voici les détails:\n \nName: $name \n ".
+$email_body = "Vous avez reçu un nouveau message. \n\n".
+				  "Voici les détails:\n \nName: $name \n ".
 				  "Email: $email_address\n Message \n $message";
-$headers = "De: admin@yoursite.com\n";
+$headers = "De: martin.duconseil@gmail.com\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
