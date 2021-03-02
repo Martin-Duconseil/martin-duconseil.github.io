@@ -447,7 +447,9 @@
   action="https://formspree.io/f/xeqpbpdz"
   method="POST"
 >
-  <label>Email:</label>
+  <label>Nom et Prénom</label>
+  <input type="text" name="nom prenom" />
+  <label>Adresse mail:</label>
   <input type="email" name="email" />
   <label>Message:</label>
   <input type="text" name="message" />
@@ -471,11 +473,11 @@
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Merci, votre message a bien été envoyé. Vous allez recevoir une réponse par mail sous peu de temps.";
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Un Problème est survenu ! Veuillez vérifier que les informations entrées sont correctes.";
     }
 
     // handle the form submission event
