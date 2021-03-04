@@ -1171,6 +1171,10 @@ border: 1px solid #CE1139;
     color: #ee55d4;
 }
 
+.twitter a:hover {
+    color: #2a8ce7;
+}
+
 .facebook a:hover {
     color: #3b5998;
 }
