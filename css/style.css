@@ -564,7 +564,6 @@ p {
 .top_cont_outer:before{content:'';position:absolute;top:0;width:100%;z-index:5;background: rgba(23, 26, 29, 0.85);height:100%;bottom:0;}
 .hero_section {
     position: relative;
-    padding-top: 72px;
     z-index: 5;
 }
 
