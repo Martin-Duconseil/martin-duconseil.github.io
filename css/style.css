@@ -999,8 +999,6 @@ margin-bottom: 5px;
     color: #55acee;
 }
 
-.team_box ul li a.fa-facebook:hover {
-    color: #3b5998;
 }
 
 .team_box ul li a.fa-pinterest:hover {
@@ -1178,8 +1176,6 @@ border: 1px solid #CE1139;
     color: #2a8ce7;
 }
 
-.facebook a:hover {
-    color: #3b5998;
 }
 
 .pinterest a:hover {
